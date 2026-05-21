@@ -1,0 +1,74 @@
+# Reading pref.tcl
+# do uart_rx_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/1\ -\ FPGA/1\ -\ Project_Quatus/12\ -\ UART_FPGA/1.Rx {D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/1.Rx/Baud_Gen_Rx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:31:20 on Mar 28,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/1.Rx" D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/1.Rx/Baud_Gen_Rx.v 
+# -- Compiling module Baud_Gen_Rx
+# 
+# Top level modules:
+# 	Baud_Gen_Rx
+# End time: 15:31:20 on Mar 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/1\ -\ FPGA/1\ -\ Project_Quatus/12\ -\ UART_FPGA/1.Rx {D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/1.Rx/Uart_Rx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:31:20 on Mar 28,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/1.Rx" D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/1.Rx/Uart_Rx.v 
+# -- Compiling module Uart_Rx
+# 
+# Top level modules:
+# 	Uart_Rx
+# End time: 15:31:20 on Mar 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/1\ -\ FPGA/1\ -\ Project_Quatus/12\ -\ UART_FPGA/1.Rx {D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/1.Rx/TOPRx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:31:20 on Mar 28,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/1.Rx" D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/1.Rx/TOPRx.v 
+# -- Compiling module TOPRx
+# 
+# Top level modules:
+# 	TOPRx
+# End time: 15:31:20 on Mar 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/1\ -\ FPGA/1\ -\ Project_Quatus/12\ -\ UART_FPGA/1.Rx {D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/1.Rx/tb_TOPRx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:31:20 on Mar 28,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/1.Rx" D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/1.Rx/tb_TOPRx.v 
+# -- Compiling module tb_TOPRx
+# 
+# Top level modules:
+# 	tb_TOPRx
+# End time: 15:31:20 on Mar 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_TOPRx
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_TOPRx 
+# Start time: 15:31:20 on Mar 28,2026
+# Loading work.tb_TOPRx
+# Loading work.TOPRx
+# Loading work.Baud_Gen_Rx
+# Loading work.Uart_Rx
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/1.Rx/tb_TOPRx.v(105)
+#    Time: 2301852 ns  Iteration: 0  Instance: /tb_TOPRx
+# 1
+# Break in Module tb_TOPRx at D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/1.Rx/tb_TOPRx.v line 105
+# End time: 15:32:46 on Mar 28,2026, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 0

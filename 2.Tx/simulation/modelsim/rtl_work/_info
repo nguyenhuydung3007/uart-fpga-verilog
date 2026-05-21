@@ -1,0 +1,111 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/simulation/modelsim
+vBaud_Gen_Tx
+Z1 !s110 1771885370
+!i10b 1
+!s100 OP?JF_bCQ:RYCi^ARh5`33
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4[`@030J`nWH2SL^YcGUk3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1767654038
+8D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/Baud_Gen_Tx.v
+FD:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/Baud_Gen_Tx.v
+!i122 0
+L0 1 46
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1771885370.000000
+!s107 D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/Baud_Gen_Tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx|D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/Baud_Gen_Tx.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx}
+Z8 tCvgOpt 0
+n@baud_@gen_@tx
+vtb_TOPTx
+Z9 !s110 1771885371
+!i10b 1
+!s100 Fjd5jHbc1[cm;iJj:DXCT3
+R2
+Ie1lT[kmd_hmhi1kXokZh[0
+R3
+R0
+w1767655184
+8D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/tb_TOPTx.v
+FD:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/tb_TOPTx.v
+!i122 3
+L0 3 106
+R4
+r1
+!s85 0
+31
+!s108 1771885371.000000
+!s107 D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/tb_TOPTx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx|D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/tb_TOPTx.v|
+!i113 1
+R6
+R7
+R8
+ntb_@t@o@p@tx
+vTOPTx
+R9
+!i10b 1
+!s100 j<<h;BJ`WMTWT=VD[7:le1
+R2
+Ih=mF6W2?VMAdQiON]U@Bg0
+R3
+R0
+w1770818744
+8D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/TOPTx.v
+FD:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/TOPTx.v
+!i122 2
+L0 1 60
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/TOPTx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx|D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/TOPTx.v|
+!i113 1
+R6
+R7
+R8
+n@t@o@p@tx
+vUart_Tx
+R1
+!i10b 1
+!s100 _S0n[Meh?R2OChY5FKU][0
+R2
+IXU@R?<8VhnE^iEc21Lfb^2
+R3
+R0
+w1767655662
+8D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/Uart_Tx.v
+FD:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/Uart_Tx.v
+!i122 1
+L0 1 104
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/Uart_Tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx|D:/1 - FPGA/1 - Project_Quatus/12 - UART_FPGA/2.Tx/Uart_Tx.v|
+!i113 1
+R6
+R7
+R8
+n@uart_@tx
